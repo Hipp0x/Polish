@@ -1,0 +1,7 @@
+(executable
+ (name polish)
+ (modules polish syntaxe functions read print eval simpl sign vars)
+ (flags :standard -w -27-26-32-33 \ -short-paths)
+ (libraries zarith)
+)
+
